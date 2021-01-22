@@ -532,6 +532,7 @@ Services
 }
 .service-card {
   margin: 2rem 0;
+  height: 530px;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -550,6 +551,9 @@ Services
 .service-info {
   text-align: center;
   padding: 3rem 1rem 2.5rem 1rem;
+}
+.service-info h4 {
+  text-transform: none;
 }
 .service-info p {
   max-width: 20rem;
@@ -574,8 +578,8 @@ Services
 }
 @media screen and (min-width: 992px) {
   .service-card {
-    width: 21%;
-    margin-right: 3.333%;
+    width: 23%;
+    margin-right: 2%;
     /* 100% 30% 3.333%*/
   }
 }
