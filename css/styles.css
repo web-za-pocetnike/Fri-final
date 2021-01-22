@@ -440,7 +440,7 @@ About
   transition: var(--transition);
 }
 .about-picture-container:hover .about-picture {
-  opacity: 0.5;
+  opacity: 0.85;
   transform: scale(1.2);
 }
 .about-text {
@@ -714,6 +714,14 @@ Footer
   .contact-form {
     margin-top: -0.5rem;
   }
+  .footer-text {
+    display: flex;
+    justify-content: center;
+  }
+  .company {
+    padding: 0 0.7rem;
+    margin-top: -0.5rem;
+  }
 }
 @media screen and (min-width: 992px) {
   .partners {
@@ -721,5 +729,18 @@ Footer
   }
   .contact-form {
     margin-top: -1rem;
+  }
+  .footer-text {
+    display: flex;
+    justify-content: center;
+  }
+  .company {
+    padding: 0 0.5rem;
+    margin-top: -0.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .company {
+    padding: 0.5rem 0.5rem;
   }
 }
